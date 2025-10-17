@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --main-font: 'Poppins', sans-serif;
+    --main-header-color: ;
+    --main-main-color: ;
+    --main-text-color: ;
+}
+
+a:visited{
+    color: inherit;
+}
+
+*{
+    text-decoration: none;
+    box-sizing: content-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header__title{
+    font-size: 28px;
+    color: #ee9f00;
+    font-weight: 500;
+}
+
+header{
+    gap: 3%;
+    align-items: center;
+    display: flex;
+    background-color: hsl(0, 0%, 97%);
+    padding: 12px 0px 12px 5%;
+    font-family: var(--main-font);
+}
+
+.header__p{
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.header__p:hover{
+    scale: 1.05;
+    color: #ee9f00;
+}
